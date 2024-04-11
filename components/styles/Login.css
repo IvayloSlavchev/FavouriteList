@@ -1,0 +1,168 @@
+.login-root-class {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-wrapper-class {
+    width: 100%;
+    text-align: center;
+}
+
+.login-wrapper {
+    width: 100%;
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.sign-in-title {
+    font-size: 2vw;
+    color: white;
+}
+
+.login-input-class {
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+}
+
+.login-input {
+    padding: .3rem;
+    font-size: 1.2vw;
+    outline: none;
+    border: none;
+    background: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.login-input::placeholder {
+    color: white;
+}
+
+.login-button {
+    width: 50%;
+    margin-top: 1rem;
+    padding: .3rem;
+    font-size: 1.2vw;
+    cursor: pointer;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    transition: 400ms;
+    border-radius: 5px;
+}
+
+.redirect-to-signup-class {
+    width: 100%;
+    text-align: left;
+    margin-top: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.signup-span {
+    font-size: 1.2vw;
+}
+
+.signup-button-redirection {
+    width: 100%;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-size: 1.1vw;
+    cursor: pointer;
+    transition: 400ms;
+    border-radius: 5px;
+    font-size: 1.2vw;
+    margin-top: .5rem;
+}
+
+.signup-button-redirection:hover {
+    background-color: white;
+    color: black;
+}
+
+.login-button:hover {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 600px){
+    .login-wrapper {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .login-input {
+        font-size: 4vw;
+    }
+
+    .sign-in-title {
+        font-size: 6vw;
+    }
+
+    .redirect-to-signup-class {
+        width: 100%;
+        display: grid;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .signup-span {
+        font-size: 4vw;
+    }
+
+    .signup-button-redirection {
+        width: 50%;
+        font-size: 4vw;
+        margin-top: .5rem;
+    }
+
+    .login-button {
+        width: 100%;
+        font-size: 4vw;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1099px) {
+    .login-wrapper {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .login-input {
+        font-size: 3.5vw;
+    }
+
+    .sign-in-title {
+        font-size: 6vw;
+    }
+
+    .redirect-to-signup-class {
+        width: 100%;
+        display: grid;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .signup-span {
+        font-size: 3vw;
+    }
+
+    .signup-button-redirection {
+        width: 50%;
+        font-size: 3vw;
+        margin-top: .5rem;
+    }
+
+    .login-button {
+        width: 100%;
+        font-size: 3vw;
+    }
+}

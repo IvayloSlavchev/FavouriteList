@@ -1,0 +1,89 @@
+.home-root-class{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid white;
+
+}
+
+.website-title-class {
+    width: 50%;
+    text-align: center;
+}
+
+.website-title {
+    font-size: 2vw;
+    color: white;
+}
+
+.redirection-links-class {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.redirect-button {
+    width: 25%;
+    padding: .3rem;
+    font-size: 1.2vw;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: 400ms;
+    border-radius: 5px;
+}
+
+.redirect-button:hover {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .home-root-class {
+        display: grid;
+        width: 100%;
+    }
+
+    .website-title-class {
+        width: 100%;
+    }
+
+    .website-title {
+        font-size: 6vw;
+    }
+
+    .redirection-links-class {
+        width: 100%;
+    }
+
+    .redirect-button {
+        width: 100%;
+        font-size: 5vw;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1099px) {
+    .home-root-class {
+        display: flex;
+        width: 100%;
+    }
+
+    .website-title-class {
+        width: 100%;
+    }
+
+    .website-title {
+        font-size: 4vw;
+    }
+
+    .redirection-links-class {
+        width: 100%;
+    }
+
+    .redirect-button {
+        width: 100%;
+        font-size: 4vw;
+    }
+}
